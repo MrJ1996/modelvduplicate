@@ -12,7 +12,5 @@ namespace modelvduplicate.Data
         }
 
         public DbSet<Employee> Employees { get; set; }
-
-
     }
 }

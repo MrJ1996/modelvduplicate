@@ -8,8 +8,6 @@ namespace modelvduplicate.Services
 {
     public interface IEmployeeService
     {
-        
-
         Task<IEnumerable<Employee>> GetAllAsync();
         Task<Employee> GetByIdAsync(int id);
         Task<bool> IsEmailUniqueAsync(string email, int? ignoreId = null);
